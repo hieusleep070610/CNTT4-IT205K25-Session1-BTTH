@@ -12,7 +12,7 @@ symptom = input("Nhập triệu chứng ban đầu")
 cost = int(input("Nhập chi phí khám"))
 
 random_num = random.randint(100, 999)
-patient_id = "BN"+ float(birth_day) + random_num
+patient_id = "BN"+ str(birth_day) + random_num
 
 print("--- THẺ BỆNH NHÂN ---")
 print("Mã BN      :",patient_id)
